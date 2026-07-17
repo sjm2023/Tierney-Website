@@ -1,0 +1,6 @@
+{
+  "name": "Tierney Craft Joinery",
+  "description": "Professional carpentry and joinery services in Tadcaster, UK. Exceptional woodworking, conversions, renovations, and fitted furniture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

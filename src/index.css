@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-50: #faf8f5;
+  --color-brand-100: #f5f0e6;
+  --color-brand-200: #e6dac3;
+  --color-brand-300: #bd9b70;
+  --color-brand-400: #9e7a4f;
+  --color-brand-500: #7a582e;
+  --color-brand-600: #5c3f1d;
+  --color-brand-700: #422b12;
+  --color-brand-800: #2d1c0b;
+  --color-brand-900: #1a0f05;
+
+  --color-warmgray-50: #fbfbf9;
+  --color-warmgray-100: #f4f3ef;
+  --color-warmgray-200: #e7e5dc;
+  --color-warmgray-300: #d2cebf;
+  --color-warmgray-400: #a7a293;
+  --color-warmgray-500: #7e796c;
+  --color-warmgray-600: #5f5a50;
+  --color-warmgray-700: #423e37;
+  --color-warmgray-800: #2c2925;
+  --color-warmgray-900: #181614;
+}
+
+/* Base style modifications for a premium editorial feel */
+html {
+  font-family: var(--font-sans);
+  background-color: var(--color-warmgray-50);
+  color: var(--color-warmgray-900);
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
